@@ -29,5 +29,6 @@ build:
   - wget -O /AnimateDiff/models/DreamBooth_LoRA/rcnzCartoon3d_v10.safetensors https://civitai.com/api/download/models/71009
   - wget -O /AnimateDiff/models/DreamBooth_LoRA/majicmixRealistic_v5Preview.safetensors https://civitai.com/api/download/models/79068
   - wget -O /AnimateDiff/models/DreamBooth_LoRA/realisticVisionV40_v20Novae.safetensors https://civitai.com/api/download/models/29460
+  - wget -O /AnimateDiff/models/DreamBooth_LoRA/dynavisionXLAllInOneStylized_alpha036FP16Bakedvae.safetensors /-https://civitai.com/api/download/models/136761
 
 predict: "predict.py:Predictor"
