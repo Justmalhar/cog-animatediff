@@ -56,13 +56,14 @@ class Predictor(BasePredictor):
         ),
         # base: str = Input(description="Base Img", default=""),
         path: str = Input(
-            default="toonyou_beta3.safetensors",
+            default="dynavisionXLAllInOneStylized_alpha036FP16Bakedvae.safetensors",
             choices=[
                 "toonyou_beta3.safetensors",
                 "lyriel_v16.safetensors",
                 "rcnzCartoon3d_v10.safetensors",
                 "majicmixRealistic_v5Preview.safetensors",
-                "realisticVisionV40_v20Novae.safetensors"
+                "realisticVisionV40_v20Novae.safetensors",
+                "dynavisionXLAllInOneStylized_alpha036FP16Bakedvae.safetensors",
             ],
             description="Select a Module",
         ),
