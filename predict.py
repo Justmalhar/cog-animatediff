@@ -134,7 +134,7 @@ class Predictor(BasePredictor):
             guidance_scale      = guidance_scale,
             width               = 512,
             height              = 512,
-            video_length        = 16,
+            video_length        = 100,
         ).videos
 
         samples = torch.concat([sample])
